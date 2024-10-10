@@ -8,10 +8,46 @@ Write an article using semantic markup, header, footer, main and section. In the
 Color the header with white text on a blue background, the footer with white text on a green background, the main portion with black text o a parchment colored background. 
 Make the nouns in the header and footer have a text weight of 600, while the rest of the text has a font-weight of 400.
     -->
-        
+      <style>
+        h1{color:white;
+            background-color:blue;}
+        h2{font-weight:600}
+        main{color:black;
+            background-color:antiquewhite;}  
+        footer{color:white;
+                background-color:green}  
+        body{font-weight:400}
+        strong{font-weight:600}
+      </style>  
 </head>
 
 <body>
+    <h1>Comparing <strong>old fashion typesetting</strong> with...</h1>
+    <main>
+        <section> 
+            <h2>Desktop Publishing</h2>
+            <p>Some examples of desktop publishing are Microsoft Word, Adobe InDesign, and even Google Docs. They are different from old fashioned typesetting because desktop publishing
+                is digital and typesetting is analogue. One way typesetting could be better is that the user can place text wherever they like. But one downside is that it would be hard to 
+                align text, which desktop publishing automatically does.
+            </p>
+        </section>
+        <section>
+            <h2>HTML</h2>
+            <p>Html is a little more similar to typesetting, allowing the user to play around with the layout a little more than desktop publishing. The downside of using html is that there is
+                no built in preview whereas in typesetting the user can see right away what it will look like.
+            </p>
+        </section>
+        <section>
+            <h2>CSS</h2>
+            <p>Css is very similar to typesetting as it allows the user to configure fonts, colors, and images. Css is better because it allows users to paste in images of their liking instead of having to
+                make a stamp of it or draw it.
+            </p>
+        </section>
+    </main>
+    <footer>
+In conclusion, <strong>technology</strong> regarding writing has come very far and the user experience has gotten easier as well. Though <strong>typesetting</strong> is obsolete today, it can be appreciated as a classic design of some sorts
+while <strong>digital typesetting</strong> can be used for ease and convenience.
+    </footer>
 </body>
 
 </html>
